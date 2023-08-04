@@ -8,7 +8,7 @@ steps:
     java-version: '11'
     distribution: 'temurin'
 - name: Build with Gradle
-  uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
+  uses: gradle/gradle-build-action@4ed30680862bfb22a3b913c8a1e98d1054a07b92
   with:
     java-version: '11'
     distribution: 'adopt'
